@@ -3,6 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import "./App.scss";
 import Slider from "./Slider"
+import TextRunner from './TextRunner';
 
 
 function App(props) {
@@ -41,7 +42,8 @@ function App(props) {
 </label></li>
       </ul>
     </div>
-    <Slider/>
+    <Slider />
+    <TextRunner/>
     </>
   );
 }
