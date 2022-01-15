@@ -20,7 +20,6 @@ function App(props) {
     }
 });
   const [theme, settheme] = useState(false);
-  console.log(theme)
   return (<> 
  <div ><h1 style={{textAlign: 'center'}}>LogoHolder</h1>
       <ul className="nav nav-pills nav-fill">
